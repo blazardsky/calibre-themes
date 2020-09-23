@@ -18,5 +18,4 @@ How to:
 
 Enjoy.
 
-                           * * *
 _If you build on this file to make something cool, let me know :)_
