@@ -8,39 +8,41 @@
 
 *, ::before, ::after {
 	box-sizing: border-box;
-	outline: 0;
-	border-style: none;
+  	outline: 0;
+  	border-style: none;
 }
 
 html {
-	cursor: default;
-	-moz-tab-size: 4;
-	tab-size: 4;
-	-webkit-tap-highlight-color: transparent;
-	font-size: 62.5%
-	-ms-text-size-adjust: 62.5%;
-	-webkit-text-size-adjust: 62.5%;
-	scroll-behavior: smooth;
+  	cursor: default;
+  	-moz-tab-size: 4;
+  	tab-size: 4;
+  	-webkit-tap-highlight-color: transparent;
+  	font-size: 62.5% !important;
+  	-ms-text-size-adjust: 62.5% !important;
+	-webkit-text-size-adjust: 62.5% !important;
+  	scroll-behavior: smooth;
 }
 
 body {
- color: #c1c9d8;
- background: #16233c;
- line-height: 1.4;
- font-size: 1.2em;
- font-weight: 400;
- word-break: break-word;
- text-rendering: geometricPrecision !important;
- letter-spacing: .0085em;
- font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
- font-family: "Raleway";
- max-width: 1440px;
- padding: 1.5rem 4.5rem;
- page-break-before: always;
- text-align: justify;
+ 	color: #c1c9d8;
+ 	background: #16233c;
+	line-height: 2.625  !important;
+	font-size: 1.675rem  !important;
+	font-weight: 400  !important;
+ 	word-break: break-word;
+ 	text-rendering: geometricPrecision  !important;
+ 	letter-spacing: .0085em;
+ 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+ 	font-family: "Raleway", sans-serif !important;
+ 	page-break-before: always;
+	text-align: justify !important;
 }
 
-body,
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
 button,
 input,
 select {
@@ -75,12 +77,12 @@ summary {
 ::selection,
 ::-moz-selection,
 ::-webkit-selection {
-	color: #3C2B42;
-	background: #593F62;
+	color: #3C2B42 !important;
+	background: #593F62 !important;
 }
 
 ::-webkit-scrollbar {
-	width: 0.2rem;
+	width: 0.2rem !important;
 }
 
 ::-webkit-scrollbar-track {
@@ -89,30 +91,30 @@ summary {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #050407;
-	background-color: rgba(5, 4, 7, 0.6);
-	border-radius: 8px;
+	background-color: #050407 !important;
+	background-color: rgba(5, 4, 7, 0.6) !important;
+	border-radius: 8px !important;
 }
 
 ::-webkit-scrollbar-track:hover,
 ::-webkit-scrollbar-thumb:hover {
-	background-color: #120D17;
-	background-color: rgba(18, 13, 23, 0.8);
+	background-color: #120D17 !important;
+	background-color: rgba(18, 13, 23, 0.8) !important;
 }
 
 ::-webkit-scrollbar-track:focus,
 ::-webkit-scrollbar-thumb:focus {
-	background-color: #3C2B42;
+	background-color: #3C2B42 !important;
 }
 
 a, a[href] {
-	background-color: transparent;
+	background-color: transparent !important;
 	color: #a780df !important;
 	text-decoration: none;
 }
 
 a:visited, a[href]:visited {
-	color: #443756;
+	color: #443756 !important;
 }
 a[href]:hover, a:hover {
 	color: #80b8df !important;
@@ -124,7 +126,7 @@ a:focus {
 
 a:active,
 a:hover, a[href]:hover {
-	outline: 0;
+	outline: none;
 }
 
 b,
@@ -135,8 +137,8 @@ dfn {
 	font-style: italic;
 }
 mark {
-	color: #3C2B42;
-	background: #593F62;
+	color: #3C2B42 !important;
+	background: #593F62 !important;
 }
 code,
 kbd,
@@ -171,13 +173,13 @@ del {
 }
 
 small {
-	font-size: 50%;
+	font-size: 50% !important;
 }
 
 }
 sub,
 sup {
-	font-size: 56.5%;
+	font-size: 56.5% !important;
 	line-height: 0;
 	position: relative;
 	vertical-align: baseline;
@@ -187,7 +189,7 @@ sup {  top: -0.5em; }
 sub {  bottom: -0.25em; }
 img {
 	border: 0;
-	max-width: 100%;
+	max-width: 100% !important;
 }
 
 svg:not(:root) {
@@ -285,6 +287,16 @@ textarea {
 ul { list-style: circle inside; }
 ol { list-style: decimal-leading-zero inside; }
 
+ul li,
+ol li,
+ol ol,
+ul ul:first-of-type,
+ul ol:first-of-type,
+ol ul:first-of-type,
+ol ol:first-of-type {
+	margin-left: 0.25rem;
+}
+
 hr {
 	border: 0;
 	border-top: 0.1rem solid #1c1c1c;
@@ -297,8 +309,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 h1 {
-	font-size: 4.6rem;
-	line-height: 1.2;
+	font-size: 5.8rem;
+	line-height: 3;
 	letter-spacing: -.1rem;
 	color: #996cda;
 }
@@ -318,12 +330,12 @@ h4 {
 	letter-spacing: -.08rem;
 }
 h5 {
-	font-size: 1.8rem;
-	line-height: 1.5;
+	font-size: 2rem;
+	line-height: 1.8;
 	letter-spacing: -.05rem;
 }
 h6 {
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	line-height: 1.6;
 	letter-spacing: 0;
 }
