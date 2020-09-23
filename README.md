@@ -7,6 +7,7 @@ I hope this can serve you as well :)
 
 #Installation
 I honestly had to spend a few minutes to figure out WHERE THE HELL WAS THAT "settings" icon to change theme. It is on the bottom left, when you open a book.
+
 How to:
 --
   Steo 1: Open a book
