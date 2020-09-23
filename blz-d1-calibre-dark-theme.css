@@ -107,7 +107,7 @@ summary {
 
 a, a[href] {
 	background-color: transparent;
-	color: #a780df;
+	color: #a780df !important;
 	text-decoration: none;
 }
 
@@ -115,7 +115,7 @@ a:visited, a[href]:visited {
 	color: #443756;
 }
 a[href]:hover, a:hover {
-	color: #80b8df;
+	color: #80b8df !important;
 }
 
 a:focus {
