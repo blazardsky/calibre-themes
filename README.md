@@ -10,13 +10,13 @@ I honestly had to spend a few minutes to figure out WHERE THE HELL WAS THAT "set
 
 How to:
 --
-  Steo 1: Open a book
-  Step 2: Open settings (a screwdriver and a wrench)
-  Step 3: Go to themes and save current theme as "default" (so you can always go back easily)
-  Step 4: Go to "user stylesheet" and copy-paste the *blz-d1.css* file
-  Repeat Step 3 naming the current style "blz d1 dark theme"
+- Steo 1: Open a book
+- Step 2: Open settings (a screwdriver and a wrench)
+- Step 3: Go to themes and save current theme as "default" (so you can always go back easily)
+- Step 4: Go to "user stylesheet" and copy-paste the *blz-d1.css* file
+- Repeat Step 3 naming the current style "blz d1 dark theme"
 
 Enjoy.
 
-----------------
-If you build on this file to make something cool, let me know :)
+                           * * *
+_If you build on this file to make something cool, let me know :)_
