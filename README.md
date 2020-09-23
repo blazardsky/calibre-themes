@@ -5,12 +5,12 @@ For this reason I tried to create a nice theme to use regularly.
 I hope this can serve you as well :)
 
 
-#Installation
+# Installation
 I honestly had to spend a few minutes to figure out WHERE THE HELL WAS THAT "settings" icon to change theme. It is on the bottom left, when you open a book.
 
 How to:
 --
-- Steo 1: Open a book
+- Step 1: Open a book
 - Step 2: Open settings (a screwdriver and a wrench)
 - Step 3: Go to themes and save current theme as "default" (so you can always go back easily)
 - Step 4: Go to "user stylesheet" and copy-paste the *blz-d1.css* file
